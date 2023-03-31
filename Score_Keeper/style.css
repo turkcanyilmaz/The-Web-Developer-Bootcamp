@@ -1,0 +1,121 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+#photo {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px;
+    background-color: white;
+    display: flex;
+    padding-left: 1em;
+    align-items: center;
+    color: black;
+    font-size: 1em;
+    font-weight: 700px;
+}
+
+.body {
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 1em;
+    color: black;
+}
+
+.body h1 {
+    margin-top: 0.5em;
+    
+}
+
+.body p {
+    margin-top: -1em;
+}
+
+#score-container {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#score {
+    font-weight: 700;
+    font-size: large;
+}
+
+select#number {
+    margin-left: 1em;
+    display: inline-block;
+    width: 4em;
+    height: 2em;
+    font-size: 16px;
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+
+#btn-container button {
+    width: 100%;
+    height: 4em;
+    padding-left: 0em;
+    margin-left: 0;
+}
+
+#btn-container {
+    display: flex;
+    width: 100%;
+
+}
+
+#btn-one {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+#btn-two {
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+#btn-reset {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+#btn-one:hover, #btn-two:hover, #btn-reset:hover {
+    box-shadow: 0px 5px 10px rgba(0,0,0,1);
+}
