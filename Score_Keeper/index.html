@@ -13,25 +13,29 @@
 
     <div class="container">
         <img id="photo" src="img/pingpong.jpg" alt="pingpong">
+
         <div class="title">
             <p><b>Ping Pong Score Keeper</b></p>
         </div>
+
         <div class="body">
-            <h1>0 to 0</h1>
+            <h1><span id="player1">0</span> to <span id="player2">0</span></h1>
             <p>Use the buttons below to keep score.</p>
+
             <div id="score-container">
                 <span id="score" for="number">Playing to</span>
                 <select name="number" id="number">
-                    <option value="five">5</option>
-                    <option value="six">6</option>
-                    <option value="seven">7</option>
-                    <option value="eight">8</option>
-                    <option value="nine">9</option>
-                    <option value="ten">10</option>
-                    
+                    <option value= "5">5</option>
+                    <option value= "6">6</option>
+                    <option value= "7">7</option>
+                    <option value= "8">8</option>
+                    <option value= "9">9</option>
+                    <option value= "10">10</option>    
                 </select>
             </div>
+
         </div>
+
         <div id="btn-container">
             <button id="btn-one">+1 Player One</button>
             <button id="btn-two">+1 Player Two</button>
